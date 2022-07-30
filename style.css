@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item {
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+}
+
+.menu-item:hover{
+    background-color: white;
+}
+
+.principal {
+    display: flex;
+    margin-bottom: 50px;
+    padding-left: 33px;
+}
+
+.principal-sessao {
+    display: flex;
+    flex-direction: column;
+}
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    right: 50px;
+    align-items: center;
+    padding: 100px;
+}
+
+.escrita-titulo{
+    font-size: 50px;
+}
+
+.escrita-botao{
+    background-color: #ffccff;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;  
+}
+
+.escrita-botao:hover {
+    background-color: #9771f6;
+    width: 183px;
+    height: 53px;
+}
